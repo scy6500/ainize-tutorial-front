@@ -1,8 +1,8 @@
-FROM ubuntu:latest
+FROM python:latest
 
 WORKDIR /app
 
-RUN pip3 install streamlit requests
+RUN pip install streamlit requests
 
 COPY . .
 
