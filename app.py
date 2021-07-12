@@ -18,7 +18,7 @@ st.header("Generate Pride and Prejudice story using GPT-2 model")
 
 length_slider = st.sidebar.slider("Length", 0, 300)
 
-base_story = st.text_input("Type Base Story", "Mr. Darcy was nice and danced only once with Elizabeth.")
+base_story = st.text_input("Type Base Story", "I love him. He's not proud. I was wrong. I was entirely wrong about him.")
 if st.button("Submit"):
     text = base_story.title()
     status_code, response = send_request(text, length_slider)
