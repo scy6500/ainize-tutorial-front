@@ -33,11 +33,11 @@ if st.button("Submit"):
 
 st.markdown('''
 <div style="display:flex">
-        <a target="_blank" href="https://github.com/scy6500/ainize-tutorial-server">
-            <img width=150px src="https://i.imgur.com/AOHw2Yc.png"/>
+        <a target="_blank" href="https://github.com/scy6500/ainize-tutorial-front">
+            <img src="https://i.imgur.com/UnJzwth.png"/>
         </a>
-        <a style="margin-left:5px" target="_blank" href="https://ainize.ai/scy6500/ainize-tutorial-server?branch=main">
-            <img width=130px src="https://i.imgur.com/F3r8BHB.png"/>
+        <a style="margin-left:10px" target="_blank" href="https://ainize.ai/scy6500/ainize-tutorial-front?branch=main">
+            <img src="https://i.imgur.com/ASkTsnj.png"/>
         </a>
 <div>
     ''',
